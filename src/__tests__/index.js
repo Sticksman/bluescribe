@@ -218,8 +218,21 @@ describe('40k', () => {
         'Mortarion must have a 4. Arch-Contaminator selection',
       ],
     },
-    // 'rfffff.ros': {},
-    // 'Terminator.ros': {},
+    'rfffff.ros': {
+      '': ['rfffff must have a Warlord selection'],
+      'forces.force.0': [
+        'Patrol Detachment -2CP must have a Cults of the Legion selection',
+        'Patrol Detachment -2CP must have a Detachment Command Cost selection',
+        'Patrol Detachment -2CP must have an HQ selection',
+        'rfffff must have a Battle Size selection',
+        'rfffff must have a Game Type selection',
+      ],
+      'forces.force.0.selections.selection.0.selections.selection.100000': [
+        'Rubric Marines must have 4 more Rubric Marines',
+        'Rubric Marines must have an Aspiring Sorcerer selection',
+      ],
+    },
+    //'Terminator.ros': {},
     // 'Test admec.ros': {},
     // 'Test_eldar.ros': {},
     // 'Testts.ros': {},
